@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study with Pocha </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Wadah Utama Kotak Putih -->
+    <div class="timer-container">
+        <h1 class="logo">Focus with Pocha ૮ • ﻌ - ა</h1>
+        
+        <!-- Pilihan Mode -->
+        <div class="mode-buttons">
+            <button class="mode-btn active" id="pomodoro-btn">Pomodoro</button>
+            <button class="mode-btn" id="short-btn">Short Break</button>
+            <button class="mode-btn" id="long-btn">Long Break</button>
+        </div>
+
+        <!-- Tampilan Angka Timer -->
+        <div class="time-display" id="time">50:00</div>
+
+        <!-- Tombol Kontrol -->
+        <div class="control-buttons">
+            <button id="start-btn">Start</button>
+            <button id="reset-btn">↻</button>
+        </div>
+
+        <!-- Fitur Kotak Customize Waktu (Di dalam kotak putih) -->
+        <div class="custom-time-container">
+            <input type="number" id="custom-input" placeholder="Mau berapa menit?" min="1" max="120">
+            <button id="set-time-btn">Apply</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
